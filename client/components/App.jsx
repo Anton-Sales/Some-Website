@@ -10,9 +10,9 @@ class App extends React.Component {
     return (
       <Router>
         <div className='app-container'>
-          <Route exact path='/home' component={Home} />
           <Route path='/' component={Header} />
           <Route path='/' component={Tabs} />
+          <Route exact path='/home' component={Home} />
         </div>
       </Router>
     )

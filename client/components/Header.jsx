@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom'
 class Header extends React.Component {
   render () {
     return (
@@ -20,6 +21,12 @@ class Header extends React.Component {
 
         <div id='navbarExampleTransparentExample' className='navbar-menu'>
           <div className='navbar-start'>
+            <a className='navbar-item'>
+              <Link to='/home'>
+                Home
+              </Link>
+            </a>
+
             <a className='navbar-item'>
               Flights
             </a>

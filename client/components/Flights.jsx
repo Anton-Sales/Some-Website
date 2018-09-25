@@ -1,6 +1,6 @@
 import React from 'react'
 
-class Home extends React.Component {
+class Flights extends React.Component {
   render () {
     return (
       <div className='tile is-ancestor'>
@@ -23,4 +23,4 @@ class Home extends React.Component {
   }
 }
 
-export default Home
+export default Flights

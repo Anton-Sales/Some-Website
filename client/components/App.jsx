@@ -3,7 +3,8 @@ import { HashRouter as Router, Route } from 'react-router-dom'
 
 import Header from './Header'
 import Tabs from './Tabs'
-import Home from './Home'
+import Flights from './Flights'
+import Form from './Form'
 
 class App extends React.Component {
   render () {
@@ -11,8 +12,8 @@ class App extends React.Component {
       <Router>
         <div className='app-container'>
           <Route path='/' component={Header} />
-          <Route path='/' component={Tabs} />
-          <Route exact path='/home' component={Home} />
+          <Route exact path='/flights' component={Flights} />
+          <Route path='/' component={Form} />
         </div>
       </Router>
     )
